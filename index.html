@@ -3,7 +3,198 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>Personal Portfolio</title>
   </head>
-  <body></body>
+  <body style="width: 90%; margin: 20px auto">
+    <!-- header -->
+    <header
+      style="
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 30px;
+      "
+    >
+      <div style="display: flex; align-items: center; gap: 15px">
+        <img src="Assets/illustrator-2.png" alt="Logo" style="width: 60px" />
+        <h3 style="font-size: 26px; margin: 0">Name</h3>
+      </div>
+      <!-- navbar -->
+      <nav>
+        <ul
+          style="
+            list-style: none;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin: 0;
+            padding: 0;
+            font-size: 18px;
+            font-weight: 600;
+          "
+        >
+          <li>
+            <a href="index.html" style="text-decoration: none; color: black"
+              >Home</a
+            >
+          </li>
+          <li>/</li>
+          <li>
+            <a href="projects.html" style="text-decoration: none; color: black"
+              >Projects</a
+            >
+          </li>
+          <li>/</li>
+          <li>
+            <a href="articles.html" style="text-decoration: none; color: black"
+              >Articles</a
+            >
+          </li>
+          <li>/</li>
+          <li>
+            <a href="contact.html" style="text-decoration: none; color: black"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- main -->
+    <main style="margin-top: 50px">
+      <div style="text-align: center">
+        <h2 style="font-size: 32px; margin-bottom: 10px">Frontend Developer</h2>
+        <p style="font-size: 16px; color: #666">
+          Welcome to my portfolio website.
+        </p>
+      </div>
+      <!-- table data -->
+      <section
+        style="
+          display: flex;
+          justify-content: space-between;
+          margin-top: 50px;
+          border: 3px solid black;
+        "
+      >
+        <!-- Projects -->
+        <div
+          style="width: 30%; padding: 0px 10px; border-right: 2px solid black"
+        >
+          <h3>Projects</h3>
+          <ul style="list-style: none; padding: 0">
+            <li style="border-bottom: 2px solid black; padding: 10px">
+              HTML Only Portfolio
+            </li>
+            <li style="border-bottom: 2px solid black; padding: 10px">
+              Calculator
+            </li>
+            <li style="border-bottom: 2px solid black; padding: 10px">
+              Quiz App
+            </li>
+            <li style="border-bottom: 2px solid black; padding: 10px">
+              Countdown Timer
+            </li>
+            <li style="padding: 10px">Product Upcoming Page</li>
+          </ul>
+        </div>
+
+        <!-- Work Experience -->
+        <div style="width: 35%; padding: 10px; border-right: 2px solid black">
+          <h3>Work Experience</h3>
+          <div style="margin-bottom: 20px">
+            <strong>roadmap.sh</strong>
+            <p>Solved all the frontend projects</p>
+            <a href="#" style="color: rgb(119, 119, 203); text-decoration: none"
+              >Visit my Profile</a
+            >
+          </div>
+          <div>
+            <strong>OpenSource Work</strong>
+            <p>
+              Contributed to 50 opensource projects. Made my own projects with
+              200 GitHub Stars.
+            </p>
+            <a href="#" style="color: rgb(119, 119, 203); text-decoration: none"
+              >Visit my GitHub Profile</a
+            >
+          </div>
+        </div>
+
+        <!-- Education -->
+        <div style="width: 30%; padding: 10px">
+          <h3>Education</h3>
+          <p>
+            Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30
+            sessions.
+          </p>
+          <p>Courses I took:</p>
+          <ul style="margin: 0; padding-left: 20px">
+            <li>Object Oriented Programming</li>
+            <li>Data Structures and Algorithms</li>
+            <li>Web Engineering</li>
+            <li>Artificial Intelligence</li>
+            <li>Human Computer Interaction</li>
+            <li>Computer Graphics</li>
+            <li>Database Management Systems</li>
+            <li>Distributed Database Systems</li>
+            <li>Discreet Mathematics</li>
+          </ul>
+        </div>
+      </section>
+      <!-- Reviews -->
+      <section style="margin-top: 40px">
+        <h3 style="margin-bottom: 20px">Reviews from my Teachers</h3>
+        <div style="display: flex; justify-content: space-between">
+          <!-- Review Box -->
+          <div
+            style="
+              border: 1px solid black;
+              border-radius: 15px;
+              padding: 15px;
+              width: 30%;
+            "
+          >
+            <p>
+              John doe was a brilliant student; always stood out with his
+              assignments.
+            </p>
+            <p style="color: gray">Jane Doe<br />Assistant Professor</p>
+          </div>
+          <div
+            style="
+              border: 1px solid black;
+              border-radius: 15px;
+              padding: 15px;
+              width: 30%;
+            "
+          >
+            <p>
+              John doe was a brilliant student; always stood out with his
+              assignments.
+            </p>
+            <p style="color: gray">Jane Doe<br />Assistant Professor</p>
+          </div>
+          <div
+            style="
+              border: 1px solid black;
+              border-radius: 20px;
+              padding: 15px;
+              width: 30%;
+            "
+          >
+            <p>
+              John doe was a brilliant student; always stood out with his
+              assignments.
+            </p>
+            <p style="color: gray">Jane Doe<br />Assistant Professor</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer style="text-align: center; margin-top: 60px">
+      <p>© all rights reserved 2025</p>
+    </footer>
+  </body>
 </html>
