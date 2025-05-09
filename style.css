@@ -61,6 +61,8 @@
   
   .info-grid {
     display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
@@ -68,10 +70,8 @@
   }
   
   .box {
-    background: white;
     padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-left: 1px solid black;
     flex: 1 1 300px;
   }
   
