@@ -3,199 +3,89 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Personal Portfolio</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body style="width: 90%; margin: 20px auto">
-    <!-- header -->
-    <header
-      style="
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 15px 30px;
-      "
-    >
-      <div style="display: flex; align-items: center; gap: 15px">
-        <img src="Assets/illustrator-2.png" alt="Logo" style="width: 60px" />
-        <h3 style="font-size: 26px; margin: 0">Name</h3>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="logo">
+        <img src="Assets/illustrator-2.png" alt="Logo" />
+        <h1>Your Name</h1>
       </div>
-      <!-- navbar -->
-      <nav>
-        <ul
-          style="
-            list-style: none;
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            margin: 0;
-            padding: 0;
-            font-size: 18px;
-            font-weight: 600;
-          "
-        >
-          <li>
-            <a href="index.html" style="text-decoration: none; color: black"
-              >Home</a
-            >
-          </li>
-          <li>/</li>
-          <li>
-            <a href="projects.html" style="text-decoration: none; color: black"
-              >Projects</a
-            >
-          </li>
-          <li>/</li>
-          <li>
-            <a href="articles.html" style="text-decoration: none; color: black"
-              >Articles</a
-            >
-          </li>
-          <li>/</li>
-          <li>
-            <a href="contact.html" style="text-decoration: none; color: black"
-              >Contact</a
-            >
-          </li>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Articles</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </nav>
     </header>
 
-    <!-- main -->
-    <main style="margin-top: 50px">
-      <div style="text-align: center">
-        <h2 style="font-size: 32px; margin-bottom: 10px">Frontend Developer</h2>
-        <p style="font-size: 16px; color: #666">
-          Welcome to my portfolio website.
-        </p>
-      </div>
-      <!-- table data -->
-      <section
-        style="
-          display: flex;
-          justify-content: space-between;
-          margin-top: 50px;
-          border: 3px solid black;
-        "
-      >
-        <!-- Projects -->
-        <div
-          style="width: 30%; padding: 0px 10px; border-right: 2px solid black"
-        >
+    <!-- Main Content -->
+    <main class="main-content">
+      <section class="intro">
+        <h2>Frontend Developer</h2>
+        <p>I love building modern, interactive web interfaces.</p>
+      </section>
+
+      <section class="info-grid">
+        <div class="box">
           <h3>Projects</h3>
-          <ul style="list-style: none; padding: 0">
-            <li style="border-bottom: 2px solid black; padding: 10px">
-              HTML Only Portfolio
-            </li>
-            <li style="border-bottom: 2px solid black; padding: 10px">
-              Calculator
-            </li>
-            <li style="border-bottom: 2px solid black; padding: 10px">
-              Quiz App
-            </li>
-            <li style="border-bottom: 2px solid black; padding: 10px">
-              Countdown Timer
-            </li>
-            <li style="padding: 10px">Product Upcoming Page</li>
+          <ul>
+            <li>Personal Portfolio</li>
+            <li>Quiz App</li>
+            <li>Weather App</li>
+            <li>To-do List</li>
+            <li>Blog Platform</li>
           </ul>
         </div>
-
-        <!-- Work Experience -->
-        <div style="width: 35%; padding: 10px; border-right: 2px solid black">
+        <div class="box">
           <h3>Work Experience</h3>
-          <div style="margin-bottom: 20px">
-            <strong>roadmap.sh</strong>
-            <p>Solved all the frontend projects</p>
-            <a href="#" style="color: rgb(119, 119, 203); text-decoration: none"
-              >Visit my Profile</a
-            >
-          </div>
-          <div>
-            <strong>OpenSource Work</strong>
-            <p>
-              Contributed to 50 opensource projects. Made my own projects with
-              200 GitHub Stars.
-            </p>
-            <a href="#" style="color: rgb(119, 119, 203); text-decoration: none"
-              >Visit my GitHub Profile</a
-            >
-          </div>
-        </div>
-
-        <!-- Education -->
-        <div style="width: 30%; padding: 10px">
-          <h3>Education</h3>
           <p>
-            Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30
-            sessions.
+            <strong>FreeCodeCamp</strong> - Completed Frontend Certifications.
           </p>
-          <p>Courses I took:</p>
-          <ul style="margin: 0; padding-left: 20px">
-            <li>Object Oriented Programming</li>
-            <li>Data Structures and Algorithms</li>
-            <li>Web Engineering</li>
-            <li>Artificial Intelligence</li>
-            <li>Human Computer Interaction</li>
-            <li>Computer Graphics</li>
-            <li>Database Management Systems</li>
-            <li>Distributed Database Systems</li>
-            <li>Discreet Mathematics</li>
+          <p>
+            <strong>GitHub</strong> - 150+ contributions in open-source
+            projects.
+          </p>
+        </div>
+        <div class="box">
+          <h3>Education</h3>
+          <p>B.Sc in Computer Science</p>
+          <ul>
+            <li>OOP</li>
+            <li>DSA</li>
+            <li>Web Dev</li>
+            <li>AI</li>
+            <li>DBMS</li>
           </ul>
         </div>
       </section>
-      <!-- Reviews -->
-      <section style="margin-top: 40px">
-        <h3 style="margin-bottom: 20px">Reviews from my Teachers</h3>
-        <div style="display: flex; justify-content: space-between">
-          <!-- Review Box -->
-          <div
-            style="
-              border: 1px solid black;
-              border-radius: 15px;
-              padding: 15px;
-              width: 30%;
-            "
-          >
-            <p>
-              John doe was a brilliant student; always stood out with his
-              assignments.
-            </p>
-            <p style="color: gray">Jane Doe<br />Assistant Professor</p>
+
+      <section class="reviews">
+        <h3>Teacher Reviews</h3>
+        <div class="review-boxes">
+          <div class="review">
+            <p>Excellent student with a strong grasp on frontend skills.</p>
+            <span>- Prof. Alice</span>
           </div>
-          <div
-            style="
-              border: 1px solid black;
-              border-radius: 15px;
-              padding: 15px;
-              width: 30%;
-            "
-          >
-            <p>
-              John doe was a brilliant student; always stood out with his
-              assignments.
-            </p>
-            <p style="color: gray">Jane Doe<br />Assistant Professor</p>
+          <div class="review">
+            <p>Creative thinker, always contributed to class discussions.</p>
+            <span>- Dr. Bob</span>
           </div>
-          <div
-            style="
-              border: 1px solid black;
-              border-radius: 20px;
-              padding: 15px;
-              width: 30%;
-            "
-          >
-            <p>
-              John doe was a brilliant student; always stood out with his
-              assignments.
-            </p>
-            <p style="color: gray">Jane Doe<br />Assistant Professor</p>
+          <div class="review">
+            <p>Highly motivated and technically skilled individual.</p>
+            <span>- Ms. Clara</span>
           </div>
         </div>
       </section>
     </main>
+
     <!-- Footer -->
-    <footer style="text-align: center; margin-top: 60px">
-      <p>© all rights reserved 2025</p>
+    <footer class="footer">
+      <p>&copy; 2025 All Rights Reserved</p>
     </footer>
   </body>
 </html>
