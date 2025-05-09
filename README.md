@@ -11,6 +11,6 @@ This project is inspired by and completed as part of the [roadmap.sh](https://ro
   
 ### URL 
 - Project URL: <a href="https://roadmap.sh/projects/portfolio-website">Roadmap.sh</a>
-- Live Link: <a href="roadmap-sh-basic-html-website.vercel.app">Basic HTML Website</a>
+- Live Link: <a href="roadmap-sh-personal-portfolio.vercel.app">Personal Portfolio</a>
 
 
