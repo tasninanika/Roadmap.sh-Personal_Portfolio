@@ -119,15 +119,17 @@
   /* Responsive Queries */
   @media (max-width: 768px) {
     .logo{
-        display: grid;
-        grid-template-columns: 1fr;
+        flex-direction: column;
         align-items: center;
         justify-items: center;
+        margin: auto;
     }
     .header {
-      flex-direction: column;
-      align-items: flex-start;
-    }
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }    
   
     .navbar ul {
       justify-content: flex-start;
@@ -135,6 +137,11 @@
   
     .info-grid {
       flex-direction: column;
+    }
+
+    .box{
+        border-left: 0px;
+        border-bottom: 1px solid black;
     }
   
     .review-boxes {
@@ -151,9 +158,24 @@
     .intro h2 {
       font-size: 24px;
     }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }    
+
+    .navbar ul {
+        font-size: 12px;
+      }
   
     .box ul {
       padding-left: 15px;
+    }
+    .box{
+        border-left: 0px;
+        border-bottom: 1px solid black;
     }
   }
   
